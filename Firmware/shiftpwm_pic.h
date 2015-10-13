@@ -1,8 +1,7 @@
 /* 
  * File:   shiftpwm_pic.h
- * Author: Miguel
  *
- * Created on 10 de Outubro de 2015, 2:56
+ * Created on 10 October 2015, 2:56
  */
 
 #ifndef SHIFTPWM_PIC_H
