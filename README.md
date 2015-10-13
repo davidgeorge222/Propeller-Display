@@ -5,4 +5,6 @@ A group project to develop a propeller display with Wifi capabilities and high p
 ![First PROPOSED version](http://i.imgur.com/gKJlont.png)
 
 Specifications:
+---------------
+
 **TODO**
