@@ -15,7 +15,7 @@ Specifications:
 > TODO
 
 **Motor** - 
-> TODO 
+> Max RPM - 1800
 
 **Propeller structure** - 
 > TODO
@@ -39,9 +39,10 @@ Component list:
 > - Led driver STP16DP05MTR (x6)
 > - RGB Led (x32 * 3 = 96 single LEDs. 96 / 16 per led driver = 6 drivers)
 > - Voltage regulator (x1) (**To determine part's model**)
+> - Motor (**To determine part's model**)
+> - Stepper Motor Driver LV8549MC-AH
 
 > **Propeller structure's components** -
-> - Motor (**To determine part's model**)
 > - ... (To determine)
 
 (LAST UPDATED: 14/10/2015 13:36)
