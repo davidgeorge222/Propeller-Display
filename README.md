@@ -21,9 +21,9 @@ Specifications:
 > TODO
 
 **Firmware** -
-> IDE: MPLAB
-> Compiler: XC8
-> Algorithm:
+> - IDE: MPLAB
+> -  Compiler: XC8
+> - Algorithm:
 	![Firmware algorithm](http://i.imgur.com/M1VnChr.png)
 	
 
