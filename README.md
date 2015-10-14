@@ -15,12 +15,14 @@ Specifications:
 > TODO
 
 **Motor** - 
-> Max RPM - 1800
+> - Max RPM - 1800
 
 **Propeller structure** - 
 > TODO
 
 **Firmware** -
+> IDE: MPLAB
+> Compiler: XC8
 > Algorithm:
 	![Firmware algorithm](http://i.imgur.com/M1VnChr.png)
 	
@@ -39,10 +41,10 @@ Component list:
 > - Led driver STP16DP05MTR (x6)
 > - RGB Led (x32 * 3 = 96 single LEDs. 96 / 16 per led driver = 6 drivers)
 > - Voltage regulator (x1) (**To determine part's model**)
-> - Motor (**To determine part's model**)
-> - Stepper Motor Driver LV8549MC-AH
+> - Motor (x1) (**To determine part's model**)
+> - Stepper Motor Driver LV8549MC-AH (x1)
 
 > **Propeller structure's components** -
 > - ... (To determine)
 
-(LAST UPDATED: 14/10/2015 13:36)
+(LAST UPDATED: 14/10/2015 13:52)
