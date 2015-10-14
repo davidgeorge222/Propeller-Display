@@ -1,5 +1,6 @@
 /* 
  * File:   bithandler.h
+ * Author: Miguel
  *
  * Created on 10 October 2015, 2:56
  */
