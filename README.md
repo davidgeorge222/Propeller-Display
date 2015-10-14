@@ -27,4 +27,24 @@ Specifications:
 	![Firmware algorithm](http://i.imgur.com/M1VnChr.png)
 	
 
-(LAST UPDATED: 14/10/2015 13:21)
+Component list:
+---------------
+
+> **Schematic's components**:
+	>> - PIC16F877A (x1)
+	>> - Capacitor 33pf (x2) 
+	>> - Crystal 20MHz (x1)
+	>> - SDCard adapter (x1) (**To determine part's model**)
+	>> - Bluetooth module HC-06 (x1)
+	>> - Resistor 10K (x1)
+	>> - Hall effect sensor (?) (**To determine part's model**)
+	>> - Led driver STP16DP05MTR (x6)
+	>> - RGB Led (x32 * 3 = 96 single LEDs. 96 / 16 per led driver = 6 drivers)
+	>> - Voltage regulator (x1) (**To determine part's model**)
+
+> **Propeller structure's components**:
+	>> - Motor (**To determine part's model**)
+	>> - ... (To determine)
+	
+
+(LAST UPDATED: 14/10/2015 13:36)
