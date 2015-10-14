@@ -7,17 +7,23 @@ A group project to develop a propeller display with Wifi capabilities and high p
 Specifications:
 ---------------
 **Microcontroller** - 
-	* PIC16F877A
-	* 20MHz CPU Clock (using external crystal)
-	* Package: PLCC 11x11 pin
+	 
+
+> - PIC16F877A
+> - 20MHz CPU Clock (using external crystal)
+> - Package: PLCC 11x11 pin
+
 **Propeller sensing method** -
-	TODO
+> TODO
+
 **Motor** - 
-	TODO 
+> TODO 
+
 **Propeller structure** - 
-	TODO
+> TODO
+
 **Firmware** -
-	Algorithm:
+> Algorithm:
 	![Firmware algorithm](http://i.imgur.com/M1VnChr.png)
 	
 
