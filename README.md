@@ -20,8 +20,6 @@ Specifications:
 
 **Propeller structure** - 
 > - Design:
-
-
 	**First version** of 3 model ideas:
 	![Idea 1](http://i.imgur.com/lAxPdNq.png)
 	![Idea 2](http://i.imgur.com/f3Ss4Ii.png)
