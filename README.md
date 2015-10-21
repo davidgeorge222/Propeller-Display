@@ -36,16 +36,17 @@ Component list:
 ---------------
 
 > **Schematic's components** -
-> - PIC16F877A (x1);
-> - Capacitor 33pf (x2); 
-> - Crystal 20MHz (x1);
-> - SDCard adapter (x1) (**To determine part's model**);
+> - PIC16F877A (x1) ([Link](http://uk.rs-online.com/web/p/microcontrollers/4671707/));
+> - Capacitor 18pF (x2) ([Link](http://uk.rs-online.com/web/p/ceramic-multilayer-capacitors/6480935/);
+> - Capacitor 10uF (x2) ([Link](http://uk.rs-online.com/web/p/ceramic-multilayer-capacitors/6911199/));
+> - Crystal 20MHz (x1) ([Link](http://uk.rs-online.com/web/p/crystal-units/6720371/));
+> - SDCard adapter (x1) ([Link](http://uk.rs-online.com/web/p/memory-sim-card-connectors/7388809P/));
 > - Bluetooth module HC-06 (x1);
-> - Resistor 10K (x1);
-> - Hall effect sensor US1881 (x1);
+> - Resistor 10K (x3) ([Link](http://uk.rs-online.com/web/p/surface-mount-fixed-resistors/8326723/));
+> - Hall effect sensor SS41 (x1) ([Link](http://uk.rs-online.com/web/p/hall-effect-sensors/8223771/));
 > - Led driver STP16DP05MTR (x6)  ([Link](http://uk.rs-online.com/web/p/led-display-drivers/6864838/?searchTerm=STP16DP05MTR&relevancy-data=636F3D3226696E3D4931384E4B6E6F776E41734D504E266C753D656E266D6D3D6D61746368616C6C7061727469616C26706D3D5E5B5C707B4C7D5C707B4E647D2D2C2F255C2E5D2B2426706F3D313326736E3D592673743D4D414E5F504152545F4E554D4245522677633D424F5448267573743D5354503136445030354D545226));
 > - RGB Led (x32 * 3 = 96 single LEDs. 96 / 16 per led driver = 6 drivers) ([Link](http://uk.rs-online.com/web/p/visible-leds/8305079/));
-> - Voltage regulator LM7805 (x1);
+> - Voltage regulator LM7805 (x1) ([Link](http://uk.rs-online.com/web/p/linear-voltage-regulators/8427472/));
 > - Motor (x1) ([Link](http://www.moonsindustries.com/Products/Steppermotor/RotarySteppermotor/Hybrid_Stepper_motor/Standard_HB_Stepper_motor/HB2P_14HY/));
 > - Stepper Motor Driver LV8549MC-AH (x1) ([Link](http://uk.rs-online.com/web/p/motor-driver-ics/7693949/?searchTerm=LV8549MC-AH&relevancy-data=636F3D3226696E3D4931384E4B6E6F776E41734D504E266C753D656E266D6D3D6D61746368616C6C7061727469616C26706D3D5E5B5C707B4C7D5C707B4E647D2D2C2F255C2E5D2B2426706F3D313326736E3D592673743D4D414E5F504152545F4E554D4245522677633D424F5448267573743D4C56383534394D432D414826))
 
