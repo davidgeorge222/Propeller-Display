@@ -2,7 +2,7 @@
 A group project to develop a propeller display with Wifi capabilities and high performance display of images
 
 **Second** version of the **proposed** schematic:
-![Second PROPOSED version](http://oi59.tinypic.com/55fc00.jpg)
+![Second PROPOSED version](http://i.imgur.com/PDouZFp.png)
 
 Specifications:
 ---------------
