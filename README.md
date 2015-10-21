@@ -10,6 +10,7 @@ Specifications:
 > - PIC16F877A
 > - 20MHz CPU Clock (using external crystal)
 > - Package: PLCC 11x11 pin
+> - [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/39582C.pdf)
 
 **Propeller sensing method** -
 > - Hall effect sensor for rotation detetion
