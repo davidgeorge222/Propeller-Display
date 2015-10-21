@@ -15,7 +15,7 @@
 /* Constants and Macros: */
 
 /* Hall sensor data: */
-#define HALL_PIN 4
+#define HALL_PIN 3
 
 /* Timers: */
 #define timer0_restart() INTCONbits.T0IF = 0; TMR0 = 0;
@@ -47,22 +47,10 @@ void init_all(void) {
 	hall_init();
 }
 
-void idle() {
-	bit_clear(TRISD, 7);
-	bit_clear(PORTD, 7);
-	
-	while(1) {
-		__delay_ms(1000);
-		bit_set(PORTD, 7);
-		__delay_ms(1000);
-		bit_clear(PORTD, 7);
-	}
-}
-
 void main(void) {
 	init_all();
 	
-	led_set(0, 0, 125, 255);
+	led_set(0, 5, 10, 15);
 	
-	idle();
+	while(1) led_update();
 }

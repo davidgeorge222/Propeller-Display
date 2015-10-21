@@ -1,18 +1,42 @@
 #include "led_driver.h"
-#include "i2c_driver.h"
+#include "shiftpwm_pic.h"
 #include <xc.h>
 
-#define LEDDRIVER_SLAVE_ADDR 1
-    
+typedef struct {
+	uint8_t r;
+	uint8_t g;
+	uint8_t b;
+} rgb_t;
+
+rgb_t rgb_list[SHIFT_REG_COUNT];
+
 void led_driver_init(void) {
-	/* Configure led driver's address here */
-	
+	shiftpwm_init();
+	for(int i = 0; i < SHIFT_REG_COUNT; i++) {
+		rgb_list[i].r = 0;
+		rgb_list[i].g = 0;
+		rgb_list[i].b  = 0;
+	}
 }
 
 void led_set(int rgb_index, uint8_t r, uint8_t g, uint8_t b) {
-	i2c_begin();
-	i2c_address(LEDDRIVER_SLAVE_ADDR, I2C_MODE_WRITE);
-	/* Set 'rgb_index'th RGB LED with all 3 values r, g and b for all the 3 leds inside the RGB LED */
+	int rgb_index_off = rgb_index * 3;
 	
-	i2c_end();
+	rgb_list[rgb_index].r = r;
+	rgb_list[rgb_index].g = g;
+	rgb_list[rgb_index].b = b;
+	
+	/* TODO: Calculate frequency from the color values: */
+	pwm_f(r, r, rgb_index_off);
+	pwm_f(g, g, rgb_index_off + 1);
+	pwm_f(b, b, rgb_index_off + 2);
+}
+
+void led_update() {
+	/* TODO: Calculate frequency from the color values: */
+	for(int i = 0; i < SHIFT_REG_COUNT; i += 3) {
+		pwm_f(rgb_list[i].r, rgb_list[i].r, i);
+		pwm_f(rgb_list[i].g, rgb_list[i].g, i + 1);
+		pwm_f(rgb_list[i].b, rgb_list[i].b, i + 2);
+	}
 }

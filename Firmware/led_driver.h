@@ -16,7 +16,8 @@ extern "C" {
    
 extern void led_driver_init(void);
 extern void led_set(int rgb_index, uint8_t r, uint8_t g, uint8_t b);
-    
+extern void led_update();    
+
 #ifdef	__cplusplus
 }
 #endif
