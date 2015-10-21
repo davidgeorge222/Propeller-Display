@@ -19,8 +19,12 @@ Specifications:
 > - Max RPM - 1800
 
 **Propeller structure** - 
-> TODO
-
+> - Design:
+	**First version** of 3 model ideas:
+	![Idea 1](http://i.imgur.com/lAxPdNq.png)
+	![Idea 2](http://i.imgur.com/f3Ss4Ii.png)
+	![Idea 3](http://i.imgur.com/jm7NUef.png)
+	
 **Firmware** -
 > - IDE: MPLAB
 > -  Compiler: XC8
