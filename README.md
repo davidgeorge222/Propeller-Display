@@ -12,7 +12,7 @@ Specifications:
 > - Package: PLCC 11x11 pin
 
 **Propeller sensing method** -
-> TODO
+> - Hall effect sensor for rotation detetion
 
 **Motor** - 
 > - Max RPM - 1800
@@ -47,4 +47,4 @@ Component list:
 > **Propeller structure's components** -
 > - ... (To determine)
 
-(LAST UPDATED: 14/10/2015 13:52)
+(LAST UPDATED: 21/10/2015 18:07)
