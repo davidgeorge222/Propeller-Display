@@ -13,16 +13,15 @@ extern "C" {
 
 #include "bithandler.h"
     
-#define SHIFT_REG_COUNT 12
+#define SHIFT_REG_COUNT 1
 #define REGS_BIT_SIZE SHIFT_REG_COUNT * 8
     
-#define pwm_f(pulse_width, hz, channel) pwm(1.f/hz, 1.f/pulse_width, channel);
+#define pwm_f(pulse_width, hz, channel) pwm((1.f/hz), (1.f/pulse_width), channel);
 
 char regs[REGS_BIT_SIZE];
 
 void shiftpwm_init();
-void pwm_m(float pulse_width, float period, int * channels, int channel_count);
-void pwm(float pulse_width, float period, int channel);
+void pwm(int pulse_width, int period, int channel);
 
 #ifdef	__cplusplus
 }

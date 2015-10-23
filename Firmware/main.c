@@ -11,6 +11,7 @@
 #include "i2c_driver.h"
 #include "led_driver.h"
 #include <xc.h>
+#include "shiftpwm_pic.h"
 
 /* Constants and Macros: */
 
@@ -50,7 +51,8 @@ void init_all(void) {
 void main(void) {
 	init_all();
 	
-	led_set(0, 5, 10, 15);
+	led_set(0, 255, 100, 200);
 	
-	while(1) led_update();
+	while(1)
+		led_update();
 }
